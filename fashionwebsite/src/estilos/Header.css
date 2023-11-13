@@ -1,0 +1,42 @@
+.Fashion-container
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+    margin-left: 25px;
+}
+
+.Fashion-title
+{
+    font-size: 2em;
+    font-weight: 900;
+    }
+
+.Fashion-options
+{
+    list-style-type: none;
+    display: flex;
+    margin-left: 700px;
+    gap: 90px;
+    font-size: 1.1em;
+}
+
+.Fashion-options li
+{
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.login
+{
+    background-color: #000;
+    color: #fff;
+}
+
+.login:hover
+{
+    color: #ebd96b;
+    cursor: pointer;
+}
